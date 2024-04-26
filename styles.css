@@ -3,6 +3,9 @@ body {
     margin: 0;
     padding: 0;
     background-color: #90aead;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 header {
@@ -29,6 +32,7 @@ nav a:hover {
 }
 
 section {
+    flex: 1;
     padding: 20px;
 }
 
@@ -51,7 +55,5 @@ footer {
     color: #ffff;
     text-align: left;
     padding: 10px;
-    position: fixed;
-    bottom: 0;
     width: 100%;
 }
