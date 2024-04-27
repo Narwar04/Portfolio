@@ -31,6 +31,10 @@ nav a:hover {
     background-color: #b3d8d7;
 }
 
+nav a.selected {
+    background-color: #b3d8d7;
+}
+
 section {
     flex: 1;
     padding: 20px;
@@ -45,15 +49,16 @@ section::after {
 section img {
     float: left;
     margin-right: 20px;
-    margin-bottom: 20px;
-    width: 250px;
-    height: 300px;
+    margin-bottom: 0px;
+    border-radius: 5%;
+    width: 428px;
+    height: 600px;
 }
 
 footer {
     background-color: #4a5958;
     color: #ffff;
-    text-align: left;
-    padding: 10px;
+    text-align:left;
+    padding: 5px;
     width: 100%;
 }
