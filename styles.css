@@ -27,29 +27,46 @@ nav a {
     padding: 10px 20px;
 }
 
-nav a:hover {
+nav a:hover,nav a.selected {
     background-color: #b3d8d7;
 }
 
-nav a.selected {
-    background-color: #b3d8d7;
+.slideshow-container {
+    max-width: 750px;
+    position: relative;
+    margin: auto;
+    border-radius: 5%;
+    float: left;
 }
 
-section {
-    flex: 1;
+.mySlides {
+    float: left;
+    border-radius: 5%;
+    display: none;
+}
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.About {
     padding: 20px;
 }
 
-section::after {
+.About::after {
     content: "";
     display: table;
     clear: both;
 }
 
-section img {
+.About img {
     float: left;
     margin-right: 20px;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
     border-radius: 5%;
     width: 428px;
     height: 600px;
@@ -62,6 +79,7 @@ footer {
     padding: 5px;
     width: 100%;
 }
-footer a{
-    color: rgb(0, 255, 0)
+
+footer a {
+    color: lime; 
 }
