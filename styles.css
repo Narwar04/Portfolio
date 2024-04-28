@@ -32,17 +32,16 @@ nav a:hover,nav a.selected {
 }
 
 .slideshow-container {
-    max-width: 750px;
     position: relative;
+    max-width: 750px;
     margin: auto;
-    border-radius: 5%;
-    float: left;
 }
-
 .mySlides {
-    float: left;
-    border-radius: 5%;
     display: none;
+}
+.mySlides img {
+    width: 750px;
+    height: auto;
 }
 
 .numbertext {
