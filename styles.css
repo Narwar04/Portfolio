@@ -39,13 +39,17 @@ nav a:hover,nav a.selected {
     position: relative;
     max-width: 750px;
     margin: auto;
+    
 }
 .mySlides {
     display: none;
+    
 }
 .mySlides img {
     width: 750px;
     height: auto;
+    border-radius: 5%;
+
 }
 
 .numbertext {
@@ -78,7 +82,7 @@ nav a:hover,nav a.selected {
 footer {
     background-color: #4a5958;
     color: #ffff;
-    text-align:left;
+    text-align:center;
 }
 
 footer a {
@@ -88,5 +92,5 @@ footer a {
 .icon {
     width: 20px;
     height: 20px;
-    border-radius: 10%;
+    border-radius: 50%;
 }
