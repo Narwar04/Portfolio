@@ -2,7 +2,7 @@ body {
     font-family: 'Courier New', Courier, monospace;
     margin: 0;
     padding: 0;
-    background-color: #90aead;
+    background-color: #ffffff;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -16,19 +16,23 @@ header {
 }
 
 nav {
-    background-color: #ddd;
-    padding: 10px;
-    text-align: center;
+    background-color: #90aead;
+    overflow: hidden;
 }
 
 nav a {
-    text-decoration: none;
+    float: left;
+    display: block;
     color: #333;
-    padding: 10px 20px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+
 }
 
 nav a:hover,nav a.selected {
-    background-color: #b3d8d7;
+    background-color: #b2e4e2;
 }
 
 .slideshow-container {
@@ -75,10 +79,14 @@ footer {
     background-color: #4a5958;
     color: #ffff;
     text-align:left;
-    padding: 5px;
-    width: 100%;
 }
 
 footer a {
-    color: lime; 
+    color: rgb(124, 196, 220); 
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    border-radius: 10%;
 }
