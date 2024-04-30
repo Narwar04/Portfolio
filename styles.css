@@ -115,7 +115,9 @@ footer {
 
 .intro-text {
     font-size: 50px;
-    margin-top: 20px;
+    margin-top: 10px; /* Adjusted margin-top */
+    margin-bottom: 20px; /* Added margin-bottom */  
+    font-weight: bolder;
 }
 .small_about{
     font-size: 14px;
