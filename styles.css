@@ -1,38 +1,50 @@
 body {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Montserrat", sans-serif !important;
     margin: 0;
     padding: 0;
-    background-color: #ffffff;
+    background-color: #050e39;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    color: #f2f2f2;
 }
+.home_image{
+    background-image: url("Images/home_image.jpg"); 
+    background-repeat: no-repeat;
+    background-size: 1300px 650px;
+    background-attachment: fixed;
+
+  }
 
 header {
     background-color: #244855;
     color: #fff;
-    padding: 20px;
+    padding: 0px;
     text-align: center;
 }
 
 nav {
-    background-color: #90aead;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #0b0c0c;
     overflow: hidden;
+    z-index: 1000; /* Ensures it stays above other content */
 }
 
 nav a {
+
     float: left;
     display: block;
-    color: #333;
-    text-align: center;
+    color: #fff;
+    text-align: left;
     padding: 14px 16px;
     text-decoration: none;
-
-
 }
 
 nav a:hover,nav a.selected {
-    background-color: #b2e4e2;
+    background-color: #313131;
 }
 
 .slideshow-container {
@@ -46,22 +58,17 @@ nav a:hover,nav a.selected {
     
 }
 .mySlides img {
+    float: left;
     width: 750px;
     height: auto;
     border-radius: 5%;
 
 }
 
-.numbertext {
-    color: #f2f2f2;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
-}
 
 .About {
     padding: 20px;
+    color: #f2f2f2;
 }
 
 .About::after {
@@ -78,19 +85,39 @@ nav a:hover,nav a.selected {
     width: 428px;
     height: 600px;
 }
-
 footer {
-    background-color: #4a5958;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #0b0c0c;
     color: #ffff;
-    text-align:center;
-}
-
-footer a {
-    color: rgb(124, 196, 220); 
+    text-align: center;
 }
 
 .icon {
-    width: 20px;
-    height: 20px;
+    padding: 10px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
+}
+
+.profile {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.profile-pic {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: scale-down;
+}
+
+.intro-text {
+    font-size: 50px;
+    margin-top: 20px;
+}
+.small_about{
+    font-size: 14px;
+
 }
