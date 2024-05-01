@@ -197,3 +197,37 @@ footer {
     color: white;
     transform: rotateY(180deg);
 }
+.Project_1 {
+    padding: 20px;
+}
+
+.image-left,
+.image-right {
+    width: calc(50% - 20px); /* Adjust the width as needed */
+    margin-bottom: 20px;
+}
+
+.image-right img {
+    float: right;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    border-radius: 5%;
+    width: auto;
+    height: 300px;
+}
+.image-left img{
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    border-radius: 5%;
+    width: auto;
+    height: 500px;
+}
+
+.image-left p,
+.image-right p {
+    display: inline-block;
+    vertical-align: middle;
+    width: calc(50% - 10px); /* Adjust the width as needed */
+    margin: 0 0 0 10px;
+}
