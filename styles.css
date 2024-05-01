@@ -8,13 +8,13 @@ body {
     min-height: 100vh;
     color: #f2f2f2;
 }
-.home_image{
-    background-image: url("Images/home_image.jpg"); 
+
+.home_image {
+    background-image: url("Images/home_image.jpg");
     background-repeat: no-repeat;
     background-size: 100vw 100vh;
     background-attachment: fixed;
-
-  }
+}
 
 header {
     background-color: #0b0c0c;
@@ -34,7 +34,6 @@ nav {
 }
 
 nav a {
-
     float: left;
     display: block;
     color: #fff;
@@ -43,7 +42,8 @@ nav a {
     text-decoration: none;
 }
 
-nav a:hover,nav a.selected {
+nav a:hover,
+nav a.selected {
     background-color: #313131;
 }
 
@@ -52,19 +52,17 @@ nav a:hover,nav a.selected {
     max-width: 750px;
     margin: auto;
     overflow: hidden;
-    
 }
+
 .mySlides {
     display: none;
-    
 }
+
 .mySlides img {
     width: 750px;
     height: auto;
     border-radius: 5%;
-
 }
-
 
 .About {
     padding: 20px;
@@ -82,9 +80,10 @@ nav a:hover,nav a.selected {
     margin-right: 20px;
     margin-bottom: 10px;
     border-radius: 5%;
-    width: 428px;
-    height: 600px;
+    width: auto;
+    height: 500px;
 }
+
 footer {
     bottom: 0;
     margin-top: auto;
@@ -117,13 +116,15 @@ footer {
 
 .intro-text {
     font-size: 50px;
-    margin-top: 10px; /* Adjusted margin-top */
-    margin-bottom: 20px; /* Added margin-bottom */  
+    margin-top: 10px;
+    margin-bottom: 20px;
     font-weight: bolder;
 }
-.small_about{
+
+.small_about {
     font-size: 14px;
 }
+
 .btn {
     display: inline-block;
     padding: 10px 20px;
@@ -138,3 +139,57 @@ footer {
 .btn:hover {
     background-color: #545467;
 }
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+  }
+  
+  .year {
+    margin-bottom: 30px;
+  }
+  
+  .year h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .project-card {
+    display: flex;
+    margin-bottom: 20px;
+    border: 1pz solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .project-card img {
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 20px;
+  }
+  
+  .project-description {
+    flex: 1;
+  }
+  
+  .project-description h3 {
+    margin: 0 0 10px 0;
+  }
+  
+  .project-description p {
+    margin: 0;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
