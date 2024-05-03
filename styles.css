@@ -187,18 +187,19 @@ footer {
 
 /* Style the front side (fallback if image is missing) */
 .flip-card-front {
-    background-color: #081451;
+    background-color: #030b25;
     color: black;
 }
 
 /* Style the back side */
 .flip-card-back {
-    background-color: #081451;
+    background-color: #030b25;
     color: white;
     transform: rotateY(180deg);
 }
 .Project_1 {
     padding: 20px;
+    font-size: 19px;
 }
 
 .image-left,
