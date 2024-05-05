@@ -8,12 +8,14 @@ body {
     flex-direction: column;
     min-height: 100vh;
     color: #f2f2f2;
+  
+
 }
 
 .home_image {
     background-image: url("Images/home_image.jpg");
     background-repeat: no-repeat;
-    background-size: 100vw 100vh;
+    background-size:  100vw 100vh;
     background-attachment: fixed;
 }
 
@@ -33,7 +35,7 @@ nav {
     width: 100%;
     background-color: #0b0c0c;
     overflow: hidden;
-    z-index: 1000;
+    z-index: 1000px;
 }
 
 nav a {
@@ -53,7 +55,7 @@ nav a.selected {
 /* Styling for the slideshow */
 .slideshow-container {
     position: relative;
-    max-width: 750px;
+    max-width: 40vh;
     margin: auto;
     overflow: hidden;
 }
@@ -63,7 +65,7 @@ nav a.selected {
 }
 
 .mySlides img {
-    width: 750px;
+    width: 40vh;
     height: auto;
     border-radius: 5%;
 }
@@ -73,6 +75,8 @@ nav a.selected {
     padding: 20px;
     color: #f2f2f2;
     max-width: 73em;
+    margin-right: auto;
+    margin-left: auto;
 
 }
 
@@ -85,10 +89,10 @@ nav a.selected {
 .About img {
     float: left;
     margin-right: 20px;
-    margin-bottom: 10px;
+    margin-left: 10px;
     border-radius: 5%;
     width: auto;
-    height: 500px;
+    height: 50vh;
 }
 
 /* Styling for the footer */
@@ -96,8 +100,8 @@ footer {
     bottom: 0;
     margin-top: auto;
     padding: 10px 0;
-    width: 100%;
-    height: 50px;
+    width: 100vw;
+    height: 5vh;
     background-color: #0b0c0c;
     color: #ffff;
     text-align: center;
@@ -155,6 +159,9 @@ footer {
 .flip-card-container {
     display: flex;
     justify-content: space-between;
+    margin-right: auto;
+    margin-left: auto;
+
 }
 
 .flip-card {
@@ -205,30 +212,37 @@ footer {
 }
 
 /* Styling for Project_1 section */
+/* Styling for Project_1 section */
 .Project_1 {
     padding: 20px;
     font-size: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-.image-left {
-    width: calc(50% - 20px); /* Adjust the width as needed */
+.image-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
     margin-bottom: 20px;
 }
 
-.image-left img {
-    float: left;
-    margin-right: 20px;
-    margin-bottom: 10px;
-    border-radius: 5%;
-    width: auto;
-    height: 500px;
+.image-left {
+    width: 40%;
 }
 
-.image-left p {
-    display: inline-block;
-    vertical-align: middle;
-    width: calc(50% - 10px); /* Adjust the width as needed */
-    margin: 0 0 0 10px;
+.image-left img {
+    width: 100%;
+    border-radius: 5%;
+}
+
+.text-right {
+    width: 55%;
+}
+
+.text-right p {
+    text-align: justify;
 }
 
 /* Styling for the nebula section */
