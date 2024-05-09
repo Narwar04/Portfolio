@@ -55,17 +55,16 @@ nav a.selected {
 /* Styling for the slideshow */
 .slideshow-container {
     position: relative;
-    max-width: 40vh;
     margin: auto;
     overflow: hidden;
 }
 
 .mySlides {
     display: none;
-}
+margin: right 1000px; ;}
 
 .mySlides img {
-    width: 40vh;
+    width: 50vh;
     height: auto;
     border-radius: 5%;
 }
