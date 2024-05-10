@@ -55,6 +55,7 @@ nav a.selected {
 /* Styling for the slideshow */
 .slideshow-container {
     position: relative;
+    margin: auto;
     overflow: hidden;
 }
 
